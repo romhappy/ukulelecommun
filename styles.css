@@ -5,54 +5,77 @@
   box-sizing: border-box;
 }
 
-html{
-    width:1200px;
-    margin:auto;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: normal;
+html {
+  width: 1200px;
+  margin: auto;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(boats.jpg) no-repeat, url("img/hero.jpg");
+  background-size: 100% 100%;
 }
 
 .navbar {
   display: flex;
   flex-direction: row;
-  gap: 20px;
 }
 
 nav {
   margin: 40px 0px;
+  margin-bottom: 20px;
   font-size: 25px;
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: normal;
-  
 }
-nav a{
-    text-decoration: none;
-    color:black;
+
+nav a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 50px;
 }
 .logo_title {
   width: 200px;
 }
 
-.img_hero{
-    width:1200px;
+.img_hero {
+  width: 1200px;
 }
 li {
   list-style: none;
 }
 
-.project_text_container{
-    width:800px;
-    margin:auto;
+.project_text_container {
+  width: 500px;
+  margin: auto;
 }
 
-h1{
-    margin:auto;
+h1 {
+  margin: auto;
 }
 
+h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
+.calendar {
+  margin-top: 50px;
+  display: flex;
+  margin: auto;
+}
