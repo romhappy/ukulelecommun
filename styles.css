@@ -5,6 +5,13 @@
   box-sizing: border-box;
 }
 
+html{
+    width:1200px;
+    margin:auto;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
 header {
   display: flex;
   flex-direction: column;
@@ -23,15 +30,29 @@ nav {
   font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: normal;
+  
 }
 nav a{
     text-decoration: none;
+    color:black;
 }
 .logo_title {
   width: 200px;
 }
 
+.img_hero{
+    width:1200px;
+}
 li {
   list-style: none;
+}
+
+.project_text_container{
+    width:800px;
+    margin:auto;
+}
+
+h1{
+    margin:auto;
 }
 
