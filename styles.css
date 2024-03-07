@@ -13,6 +13,7 @@ html {
   font-style: normal;
 }
 header {
+  margin-bottom: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,7 +35,7 @@ nav {
   font-family: "Lato", sans-serif;
   font-weight: 450;
   font-style: normal;
-  background-color: #f8f8f8;
+  background-color: #2F2F2F;
   border-top-right-radius: 50px;
   border-top-left-radius: 50px;
   padding: 20px;
@@ -43,7 +44,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: black;
+  color: white;
   padding: 50px;
 }
 .logo_title {
@@ -84,6 +85,8 @@ footer {
   margin: auto;
 }
 
+
+
 @media screen and (max-width: 800px) {
   html {
     width: 100%;
@@ -92,7 +95,6 @@ footer {
   
 
   header {
-    
     width: 100%; /* Ajustez la largeur selon vos besoins */
     height: 300px; /* Ajustez la hauteur selon vos besoins */
     background-image: url('img/hero.jpg')linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
@@ -113,7 +115,9 @@ footer {
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
     padding: 20px;
+
   }
+
   .project_text_container {
     width: 100%;
     padding:10px;
