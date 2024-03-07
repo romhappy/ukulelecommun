@@ -19,7 +19,7 @@ header {
 
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(boats.jpg) no-repeat, url("img/hero.jpg");
-  background-size: 100% 100%;
+  background-size: contain;
 }
 
 .navbar {
@@ -28,18 +28,19 @@ header {
 }
 
 nav {
-  margin: 40px 0px;
-  margin-bottom: 20px;
   font-size: 25px;
   font-family: "Lato", sans-serif;
-  font-weight: 700;
+  font-weight: 450;
   font-style: normal;
+  background-color: #f8f8f8;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  padding: 20px;
 }
 
 nav a {
   text-decoration: none;
   color: black;
-  background-color: white;
   padding: 50px;
 }
 .logo_title {
@@ -78,4 +79,45 @@ footer {
   margin-top: 50px;
   display: flex;
   margin: auto;
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    width: 100%;
+  }
+
+  
+
+  header {
+    
+    width: 100%; /* Ajustez la largeur selon vos besoins */
+    height: 300px; /* Ajustez la hauteur selon vos besoins */
+    background-image: url('img/hero.jpg')linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-size: cover;
+    background-position: center;
+  }
+
+  .navbar {
+    display: grid;
+  }
+
+  nav {
+    font-size: 25px;
+    font-family: "Lato", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    background-color: #f8f8f8;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    padding: 20px;
+  }
+  .project_text_container {
+    width: 100%;
+    padding:10px;
+  }
+
+  .img_hero {
+    width: 100%;
+    height: auto;
+  }
 }
