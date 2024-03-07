@@ -20,11 +20,13 @@ header {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(boats.jpg) no-repeat, url("img/hero.jpg");
   background-size: contain;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .navbar {
   display: flex;
   flex-direction: row;
+
 }
 
 nav {
@@ -36,6 +38,7 @@ nav {
   border-top-right-radius: 50px;
   border-top-left-radius: 50px;
   padding: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 nav a {
