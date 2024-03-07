@@ -27,7 +27,6 @@ header {
 .navbar {
   display: flex;
   flex-direction: row;
-
 }
 
 nav {
@@ -35,7 +34,7 @@ nav {
   font-family: "Lato", sans-serif;
   font-weight: 450;
   font-style: normal;
-  background-color: #2F2F2F;
+  background-color: #2f2f2f;
   border-top-right-radius: 50px;
   border-top-left-radius: 50px;
   padding: 20px;
@@ -85,19 +84,16 @@ footer {
   margin: auto;
 }
 
-
-
 @media screen and (max-width: 800px) {
   html {
     width: 100%;
   }
 
-  
-
   header {
     width: 100%; /* Ajustez la largeur selon vos besoins */
     height: 300px; /* Ajustez la hauteur selon vos besoins */
-    background-image: url('img/hero.jpg')linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-image: url("img/hero.jpg")
+      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     background-size: cover;
     background-position: center;
   }
@@ -106,25 +102,31 @@ footer {
     display: grid;
   }
 
-  nav {
-    font-size: 25px;
-    font-family: "Lato", sans-serif;
-    font-weight: 450;
-    font-style: normal;
-    background-color: #f8f8f8;
-    border-top-right-radius: 0px;
-    border-top-left-radius: 0px;
-    padding: 20px;
-
-  }
-
   .project_text_container {
     width: 100%;
-    padding:10px;
+    padding: 10px;
   }
 
   .img_hero {
     width: 100%;
     height: auto;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+    padding:0px;
+  }
+
+  nav {
+    font-size: 25px;
+    font-family: "Lato", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+    background-color: #2f2f2f;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
 }
