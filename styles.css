@@ -45,7 +45,7 @@ html {
 
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(boats.jpg), url("img/hero3.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
@@ -127,15 +127,43 @@ footer {
     width: 100%;
   }
 
-  header {
+  .hero {
     width: 100%; /* Ajustez la largeur selon vos besoins */
     height: 300px; /* Ajustez la hauteur selon vos besoins */
     background-image: url("img/hero.jpg")
       linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     background-size: cover;
     background-position: center;
+    margin-bottom: 100px;
   }
 
+  .hero2 {
+    width: 100%; /* Ajustez la largeur selon vos besoins */
+    height: 300px; /* Ajustez la hauteur selon vos besoins */
+    background-image: url("img/hero2.jpg")
+      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+  }
+  .hero3 {
+    width: 100%; /* Ajustez la largeur selon vos besoins */
+    height: 300px; /* Ajustez la hauteur selon vos besoins */
+    background-image: url("img/hero3.jpg")
+      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+  }
+  .hero4 {
+    width: 100%; /* Ajustez la largeur selon vos besoins */
+    height: 300px; /* Ajustez la hauteur selon vos besoins */
+    background-image: url("img/hero4.jpg")
+      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    background-size: cover;
+    background-position:left ;
+    margin-bottom: 100px;
+  }
   .navbar {
     display: grid;
   }
@@ -153,7 +181,7 @@ footer {
   nav a {
     text-decoration: none;
     color: white;
-    padding:0px;
+    padding: 0px;
   }
 
   nav {
