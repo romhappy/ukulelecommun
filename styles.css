@@ -12,7 +12,8 @@ html {
   font-weight: 300;
   font-style: normal;
 }
-header {
+
+.hero {
   margin-bottom: 40px;
   display: flex;
   flex-direction: column;
@@ -20,7 +21,44 @@ header {
 
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(boats.jpg) no-repeat, url("img/hero.jpg");
-  background-size: contain;
+  background-size: cover;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.hero2 {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(boats.jpg) no-repeat, url("img/hero2.jpg");
+  background-size: cover;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.hero3 {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(boats.jpg), url("img/hero3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.hero4 {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(boats.jpg) no-repeat, url("img/hero4.jpg");
+  background-size: cover;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
