@@ -122,6 +122,14 @@ footer {
   margin: auto;
 }
 
+iframe {
+  display: block;
+  margin:auto;
+  width: 700px;
+  height: 364px;
+  padding: 25px;
+}
+
 @media screen and (max-width: 800px) {
   html {
     width: 100%;
@@ -161,11 +169,19 @@ footer {
     background-image: url("img/hero4.jpg")
       linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
     background-size: cover;
-    background-position:left ;
+    background-position: left;
     margin-bottom: 100px;
   }
   .navbar {
     display: grid;
+  }
+
+  iframe {
+    display: block;
+    margin:auto;
+    width: 100%;
+    height: 300px;
+    padding: 25px;
   }
 
   .project_text_container {
@@ -196,4 +212,3 @@ footer {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
 }
-
